@@ -1,6 +1,12 @@
+import Authenticator from "./routes";
+
 const App = () => {
 
-  return (<></>)
+  return (
+    <>
+      <Authenticator />
+    </>
+  )
 }
 
 export default App
