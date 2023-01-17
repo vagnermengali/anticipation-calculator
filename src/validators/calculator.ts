@@ -22,4 +22,5 @@ export const formSchema = yup.object().shape({
         .typeError('Campo obrigatório')
         .required("Campo obrigatório")
         .min(0, "O valor mínimo é de 0%")
+        .max(100, "O valor máximo é de 100%"),
 });
