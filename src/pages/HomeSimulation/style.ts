@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledHomeSection = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +31,11 @@ export const StyledHomeSection = styled.div`
     :hover:after {
       transform: scaleX(1);
       transform-origin: bottom left;
+    }
+  }
+  @media(max-width: 600px) {
+    .link {
+      top: 1.5rem;
     }
   }
 `;
