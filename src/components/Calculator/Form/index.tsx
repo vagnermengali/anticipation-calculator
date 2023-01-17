@@ -2,7 +2,7 @@ import { formSchema } from "../../../validators/calculator";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import { StyledForm } from "./style";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Context } from "../../../context/calculatorContext";
 
 const Form = () => {

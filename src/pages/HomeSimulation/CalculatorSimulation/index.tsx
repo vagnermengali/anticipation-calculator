@@ -19,10 +19,10 @@ const CalculatorSimulation = () => {
                     </div>
                     {calculationSimulation ? (
                         <>
-                            <p>Amanhã: <span>R$ {finalCalculationSimulation["1"]},00</span></p>
-                            <p>Em 15 dias: <span>R$ {finalCalculationSimulation["15"]},00</span></p>
-                            <p>Em 30 dias: <span>R$ {finalCalculationSimulation["30"]},00</span></p>
-                            <p>Em 90 dias: <span>R$ {finalCalculationSimulation["90"]},00</span></p>
+                            <p>Amanhã: <span>R$ {(finalCalculationSimulation["1"] / 100).toFixed(2)}</span></p>
+                            <p>Em 15 dias: <span>R$ {(finalCalculationSimulation["15"] / 100).toFixed(2)}</span></p>
+                            <p>Em 30 dias: <span>R$ {(finalCalculationSimulation["30"] / 100).toFixed(2)}</span></p>
+                            <p>Em 90 dias: <span>R$ {(finalCalculationSimulation["90"] / 100).toFixed(2)}</span></p>
                         </>
                     ) : !loading && !calculationSimulation ? (
                         <div className="loading">

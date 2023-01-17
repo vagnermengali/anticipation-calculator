@@ -7,7 +7,7 @@ const FormSimulation = () => {
             <h1>Simule sua Antecipação</h1>
             <div className="input-group">
                 <label className="label">Informe o valor da venda*</label>
-                <input className="input" type="number" value="1000" />
+                <input className="input" type="number" value="10" />
             </div>
             <div className="input-group">
                 <label className="label">Em quantas parcelas*</label>

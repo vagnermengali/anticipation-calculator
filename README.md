@@ -3,7 +3,7 @@
 
 ## 📲 Link do deploy
 
-Use a aplicação em [Link do deploy](https://repositorio-git-develop-avante.vercel.app/) 
+Use a aplicação em [Link do deploy]() 
 
 ## ⚙️ Modo de instalação
 
