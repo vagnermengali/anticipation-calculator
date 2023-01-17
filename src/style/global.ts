@@ -2,18 +2,20 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
  @font-face {
-  font-family: 'Roboto';
-  src: local('Roboto'), url(/font/Roboto.ttf) format('truetype');
+  font-family: 'SourceSerifPro';
+  src: local('SourceSerifPro'), url(/font/SourceSerifPro.ttf) format('truetype');
 }
 
 :root {
-    --primary-color:#5d8cc5;
-    --secondary-color: #84b4ef;
-    --tertiary-color: #446793;
-    --grey-0: #f5f7fa;
+    --primary-color:#3D75BB;
+    --secondary-color: #66AFE9;
+    --tertiary-color: #5D9CEC;
+    --quaternary-color: #446793;
+    --grey-0: #F5F7FA;
     --grey-1: #f7f9fa;
+    --grey-2: #d6e0e6;
     --grey-3: #656565;
-    --grey-4: #9f9f9f;
+    --grey-4: #CECECE;
     --white: #ffffff;
     --black: #000000;
     --transparent: transparent;
@@ -26,7 +28,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: var(--grey-0);
   }
   *::selection {
-    background-color: var(--tertiary-color);
+    background-color: var(--quaternary-color);
     color: var(--white);
     text-shadow: none;
   }
