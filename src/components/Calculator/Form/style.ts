@@ -13,7 +13,7 @@ export const StyledForm = styled.form`
   h1 {
     color: var(--grey-3);
     font-weight: 900;
-    font-size: 20px;
+    font-size: 22px;
   }
   .input-group {
     width:100%;
