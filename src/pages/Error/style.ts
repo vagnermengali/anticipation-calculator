@@ -7,6 +7,8 @@ export const StyledErrorSection = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation: fadeIn; 
+  animation-duration: 1s;
   
   .container {
     display: flex;
