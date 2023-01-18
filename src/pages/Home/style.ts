@@ -6,6 +6,8 @@ export const StyledHomeSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeInDown; 
+  animation-duration: 1.5s;
 
   .link {
     top: 4rem;
@@ -32,5 +34,13 @@ export const StyledHomeSection = styled.div`
       transform: scaleX(1);
       transform-origin: bottom left;
     }
+  }
+  @media(max-width: 600px) {
+    animation: none; 
+    animation-duration: 1.5s;
+    .link {
+    top: 0.5rem;
+
+  }
   }
 `;
